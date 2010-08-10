@@ -40,6 +40,8 @@ set nobackup
 "Mappings
 map <F2> :NERDTreeToggle<CR>
 imap <F2> <Esc> :NERDTreeToggle<CR>
+map <C-F2> :NERDTreeMirror<CR>
+imap <C-F2> <Esc> :NERDTreeMirror<CR>
 
 nmap <C-tab> tabnext<CR>
 nmap <C-S-tab> tabprevious<CR>
