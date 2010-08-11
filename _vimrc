@@ -29,7 +29,8 @@ function MyDiff()
 endfunction
 
 "Configurations
-set ts=2 "set tabstop to 2 spaces
+set tabstop=2 "set tabstop to 2 spaces
+set shiftwidth=2 "indent level
 set guifont=Consolas "set font to Consolas
 set nowrap "do not wrap text
 au GUIEnter * simalt ~x "maximize gvim window on startup
