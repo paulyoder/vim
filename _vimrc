@@ -35,7 +35,8 @@ set nowrap "do not wrap text
 au GUIEnter * simalt ~x "maximize gvim window on startup
 set ic "perform case insensitive searches
 set smartindent "auto indent new lines
-set nobackup
+set nobackup "do not leave a .swp file behind
+set number "show line numbers
 
 "Mappings
 map <F2> :NERDTreeToggle<CR>
