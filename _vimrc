@@ -55,11 +55,11 @@ imap <C-tab> <Esc>:tabnext<CR>i
 nmap <C-t> :tabnew<CR>
 imap <C-t> <Esc>:tabnew<CR>
 
-map <C-Right> <C-W><Right>
-imap <Esc><C-Right> <C-W><Right>
-map <C-Left> <C-W><Left>
-imap <Esc><C-Left> <C-W><Left>
-map <C-Up> <C-W><Up>
-imap <Esc><C-Up> <C-W><Up>
-map <C-Down> <C-W><Down>
-imap <Esc><C-Down> <C-W><Down>
+map <C-h> <C-W>h
+imap <Esc><C-h> <C-W>h
+map <C-j> <C-W>j
+imap <Esc><C-j> <C-W>j
+map <C-k> <C-W>k
+imap <Esc><C-k> <C-W>k
+map <C-l> <C-W>l
+imap <Esc><C-l> <C-W>l
