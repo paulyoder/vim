@@ -37,6 +37,7 @@ au GUIEnter * simalt ~x "maximize gvim window on startup
 set ic "perform case insensitive searches
 set smartindent "auto indent new lines
 set nobackup "do not leave a .swp file behind
+set noswapfile "do not create a .swp file
 set number "show line numbers
 
 "Mappings
