@@ -41,19 +41,7 @@ set noswapfile "do not create a .swp file
 set number "show line numbers
 
 "Mappings
-map <F2> :NERDTreeToggle<CR>
-imap <F2> <Esc> :NERDTreeToggle<CR>
-map <C-F2> :NERDTreeMirror<CR>
-imap <C-F2> <Esc> :NERDTreeMirror<CR>
-
-nmap <C-tab> tabnext<CR>
-nmap <C-S-tab> tabprevious<CR>
-map <C-S-tab> :tabprevious<CR>
-map <C-tab> :tabnext<CR>
-imap <C-S-tab> <Esc>:tabprevious<CR>i
-imap <C-tab> <Esc>:tabnext<CR>i
-nmap <C-t> :tabnew<CR>
-imap <C-t> <Esc>:tabnew<CR>
+map ,n :NERDTreeToggle<CR>
 
 map <C-h> <C-W>h
 imap <Esc><C-h> <C-W>h
