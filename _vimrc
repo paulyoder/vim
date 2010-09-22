@@ -39,7 +39,7 @@ set smartindent "auto indent new lines
 set nobackup "do not leave a .swp file behind
 set noswapfile "do not create a .swp file
 set number "show line numbers
-colo rails "use the rails color scheme
+colorscheme rails "use the rails color scheme
 
 "Mappings
 map ,n :NERDTreeToggle<CR>
