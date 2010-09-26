@@ -43,6 +43,10 @@ colorscheme rails "use the rails color scheme
 
 "Mappings
 map ,n :NERDTreeToggle<CR>
+map ,rm :Rmodel<CR>
+map ,rc :Rcontroller<CR>
+map ,rv :Rview<CR>
+map ,rs :Rserver!<CR>
 
 map <C-h> <C-W>h
 imap <Esc><C-h> <C-W>h
