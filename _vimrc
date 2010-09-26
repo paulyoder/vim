@@ -37,28 +37,18 @@ au GUIEnter * simalt ~x "maximize gvim window on startup
 set ic "perform case insensitive searches
 set smartindent "auto indent new lines
 set nobackup "do not leave a .swp file behind
+set noswapfile "do not create a .swp file
 set number "show line numbers
+colorscheme rails "use the rails color scheme
 
 "Mappings
-map <F2> :NERDTreeToggle<CR>
-imap <F2> <Esc> :NERDTreeToggle<CR>
-map <C-F2> :NERDTreeMirror<CR>
-imap <C-F2> <Esc> :NERDTreeMirror<CR>
+map ,n :NERDTreeToggle<CR>
 
-nmap <C-tab> tabnext<CR>
-nmap <C-S-tab> tabprevious<CR>
-map <C-S-tab> :tabprevious<CR>
-map <C-tab> :tabnext<CR>
-imap <C-S-tab> <Esc>:tabprevious<CR>i
-imap <C-tab> <Esc>:tabnext<CR>i
-nmap <C-t> :tabnew<CR>
-imap <C-t> <Esc>:tabnew<CR>
-
-map <C-Right> <C-W><Right>
-imap <Esc><C-Right> <C-W><Right>
-map <C-Left> <C-W><Left>
-imap <Esc><C-Left> <C-W><Left>
-map <C-Up> <C-W><Up>
-imap <Esc><C-Up> <C-W><Up>
-map <C-Down> <C-W><Down>
-imap <Esc><C-Down> <C-W><Down>
+map <C-h> <C-W>h
+imap <Esc><C-h> <C-W>h
+map <C-j> <C-W>j
+imap <Esc><C-j> <C-W>j
+map <C-k> <C-W>k
+imap <Esc><C-k> <C-W>k
+map <C-l> <C-W>l
+imap <Esc><C-l> <C-W>l
