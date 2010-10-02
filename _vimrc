@@ -56,3 +56,4 @@ map <C-k> <C-W>k
 imap <Esc><C-k> <C-W>k
 map <C-l> <C-W>l
 imap <Esc><C-l> <C-W>l
+map <C-x> <C-W>x
